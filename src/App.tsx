@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import {Box} from "@mui/material";
 import Header from "./shared/components/Header";
+import AboutMe from "./modules/about-me";
 
 function App() {
-  return (
-      <Box className='wrapper'>
-       <Header/>
-      </Box>
-  );
+    return (
+        <div className='wrapper'>
+            <Header/>
+            <AboutMe/>
+        </div>
+    );
 }
 
 export default App;
